@@ -1,0 +1,83 @@
+{
+  "common": {
+    "submit": "Submit",
+    "devices": "Devices",
+    "details": "details",
+    "stop": "stop",
+    "use": "use",
+    "and": "and",
+    "groups": "Groups",
+    "settings": "Settings",
+    "android": "Android",
+    "ios": "iOS",
+    "brand_name": "TestOasis",
+    "keys": "keys",
+    "general": "General",
+    "save": "save",
+    "create": "create",
+    "example": "Example",
+    "name": "Name",
+    "key": "Key",
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "french": "French"
+    }
+  },
+  "login": {
+    "welcome": "Welcome Back...",
+    "helper_text": "Please enter your username and password"
+  },
+  "devices": {
+    "total_devices": "Total Devices",
+    "available_devices": "Available Devices",
+    "count_overview": "${android_count} Android and ${iOS_count} iOS",
+    "busy_devices": "Busy Devices",
+    "devices_using_description": "Devices You're Using",
+    "available_device_description": "Available ${device_type} Devices",
+    "no_devices": "No Devices"
+  },
+  "settings": {
+    "reset_settings_description": "Reset all your local settings to default. This will not affect your account",
+    "reset_settings_heading": "Reset Local Settings",
+    "reset_settings_button": "Reset Local Settings",
+    "date_settings_description": "Choose your preferred date format",
+    "date_settings_learn_more": "Learn more about available date formats",
+    "date_settings_message": "Use proper date format.",
+    "email_description": "Choose your preferred separator for email addresses",
+    "email_helper_text": "This would be used to separate email addresses when you send emails to multiple recipients",
+    "email_title": "Email Address Separator",
+    "choose_language": "Choose Language",
+    "date_format": "Date Format",
+    "language": {
+      "description": "Choose your preferred language",
+      "title": "Language",
+      "helper_text": "This will be only applied to your account"
+    }
+  },
+  "key": {
+    "title": "My Keys",
+    "description": "These tokens allow other apps to control your whole account. Be careful!",
+    "generated_key": "Generated Key",
+    "generated_tokens": "Generated Tokens",
+    "access_token": {
+      "title": "Access Token",
+      "description": "Enter a unique name for your token to differentiate it from other tokens.",
+      "label": "Token",
+      "placeholder": "Enter Token Name"
+    },
+    "adb_keys": {
+      "title": "ADB Keys",
+      "description": "Enter a unique name for your token to differentiate it from other tokens.",
+      "key": {
+        "label": "Key",
+        "placeholder": "Enter Key Name"
+      },
+      "devices": {
+        "label": "Devices",
+        "placeholder": "Add Device"
+      }
+    },
+    "view_keys_button": "View Generated Keys"
+  }
+}

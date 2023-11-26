@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TestOasis</title>
+	</head>
+	<body class="bg-background">
+		<!--This is important so that the application doesn't flash wrong theme while it's loading-->
+		<!--The trick is to set the correct theme class before the application is loaded-->
+		<!--Due to the reactive nature of CSS variables, the correct theme will be applied once the application is loaded-->
+		<script src="/theme.js"></script>
+		<div
+			aria-busy="true"
+			aria-live="polite"
+			aria-valuetext="Loading..."
+			id="loader"
+			role="progressbar"
+			class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center"
+		>
+			<div
+				class="h-20 w-20 animate-spin rounded-full border-y-2 border-gray-900 dark:border-gray-200"
+			></div>
+		</div>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>
